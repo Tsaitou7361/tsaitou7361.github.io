@@ -1,0 +1,199 @@
+innovation
+├─config
+├─logs
+├─plugins
+│  ├─AntiCreeper
+│  ├─AnvilFormatting
+│  ├─bStats
+│  ├─Chunky
+│  │  └─tasks
+│  ├─ClickVillagers
+│  ├─CoreProtect
+│  ├─DeathTP
+│  ├─DiscordServerConsole
+│  ├─DiscordSRV
+│  │  └─discord-console-logs
+│  ├─DriveBackupV2
+│  ├─eBackup
+│  ├─EmeraldBank
+│  ├─eShulkerBox
+│  │  └─shulkerboxes
+│  ├─Essentials
+│  │  ├─userdata
+│  │  ├─userdata-npc-backup
+│  │  └─warps
+│  ├─GSit
+│  │  ├─data
+│  │  └─lang
+│  ├─LuckPerms
+│  │  ├─libs
+│  │  └─translations
+│  │      ├─custom
+│  │      └─repository
+│  ├─md_
+│  ├─ModernShowcase
+│  │  └─Langs
+│  ├─NoEndermanGrief
+│  ├─NotTooExpensive
+│  ├─PlaceholderAPI
+│  │  └─expansions
+│  ├─PlugManX
+│  ├─ProtocolLib
+│  ├─Randomtp
+│  ├─spark
+│  │  └─tmp
+│  ├─TabTPS
+│  │  ├─display-configs
+│  │  ├─themes
+│  │  └─userdata
+│  ├─Vault
+│  ├─ViaBackwards
+│  ├─ViaVersion
+│  └─WorldEdit
+│      ├─.archive-unpack
+│      │  └─48de864a
+│      │      ├─af
+│      │      ├─ar
+│      │      ├─ast
+│      │      ├─az
+│      │      ├─ba
+│      │      ├─be
+│      │      ├─bg
+│      │      ├─br-FR
+│      │      ├─brb
+│      │      ├─bs
+│      │      ├─ca
+│      │      ├─cs
+│      │      ├─cy
+│      │      ├─da
+│      │      ├─de
+│      │      ├─de-AT
+│      │      ├─de-CH
+│      │      ├─el
+│      │      ├─en-AU
+│      │      ├─en-CA
+│      │      ├─en-NZ
+│      │      ├─en-PT
+│      │      ├─en-UD
+│      │      ├─enp
+│      │      ├─eo
+│      │      ├─es-AR
+│      │      ├─es-CL
+│      │      ├─es-ES
+│      │      ├─es-MX
+│      │      ├─es-UY
+│      │      ├─es-VE
+│      │      ├─et
+│      │      ├─eu
+│      │      ├─fa
+│      │      ├─fi
+│      │      ├─fil
+│      │      ├─fo
+│      │      ├─fr
+│      │      ├─fr-CA
+│      │      ├─fra-DE
+│      │      ├─fy-NL
+│      │      ├─ga-IE
+│      │      ├─gd
+│      │      ├─gl
+│      │      ├─got
+│      │      ├─gv
+│      │      ├─haw
+│      │      ├─he
+│      │      ├─hi
+│      │      ├─hr
+│      │      ├─hu
+│      │      ├─hy-AM
+│      │      ├─id
+│      │      ├─ido
+│      │      ├─ig
+│      │      ├─is
+│      │      ├─it
+│      │      ├─ja
+│      │      ├─jbo
+│      │      ├─ka
+│      │      ├─kab
+│      │      ├─kk
+│      │      ├─kn
+│      │      ├─ko
+│      │      ├─ksh
+│      │      ├─kw
+│      │      ├─la-LA
+│      │      ├─lb
+│      │      ├─li
+│      │      ├─lol
+│      │      ├─lt
+│      │      ├─lv
+│      │      ├─mi
+│      │      ├─mk
+│      │      ├─mn
+│      │      ├─moh
+│      │      ├─ms
+│      │      ├─mt
+│      │      ├─nds
+│      │      ├─nl
+│      │      ├─nl-BE
+│      │      ├─nn-NO
+│      │      ├─no
+│      │      ├─nuk
+│      │      ├─oc
+│      │      ├─oj
+│      │      ├─pl
+│      │      ├─pt-BR
+│      │      ├─pt-PT
+│      │      ├─qya-AA
+│      │      ├─ro
+│      │      ├─ru
+│      │      ├─se
+│      │      ├─sk
+│      │      ├─sl
+│      │      ├─so
+│      │      ├─sq
+│      │      ├─sr
+│      │      ├─sv-SE
+│      │      ├─swg
+│      │      ├─szl
+│      │      ├─ta
+│      │      ├─th
+│      │      ├─tlh-AA
+│      │      ├─tr
+│      │      ├─tt-RU
+│      │      ├─tzl
+│      │      ├─uk
+│      │      ├─val-ES
+│      │      ├─vec
+│      │      ├─vi
+│      │      ├─yi
+│      │      ├─yo
+│      │      ├─zh-CN
+│      │      └─zh-TW
+│      ├─assets
+│      ├─schematics
+│      └─sessions
+├─world
+│  ├─advancements
+│  ├─data
+│  ├─datapacks
+│  │  └─bukkit
+│  ├─DIM-1
+│  │  └─data
+│  ├─DIM1
+│  │  └─data
+│  ├─entities
+│  ├─playerdata
+│  ├─poi
+│  ├─region
+│  └─stats
+├─world_nether
+│  └─DIM-1
+│      ├─data
+│      ├─entities
+│      ├─poi
+│      └─region
+└─world_the_end
+    └─DIM1
+        ├─data
+        ├─entities
+        ├─poi
+        └─region
+  
