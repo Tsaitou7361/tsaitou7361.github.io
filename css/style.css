@@ -9,11 +9,6 @@
     text-align: center;
 }
 
-ol.center {
-    display: block;
-    text-align: left;
-}
-
 /* body {
     display: flex;
     align-items: center;
@@ -36,6 +31,9 @@ hr {
 
 .font {
     font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'sans-serif';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
 }
 
 .font-code {
@@ -68,13 +66,13 @@ hr {
 .button {
     display: inline-block;
     border-radius: 10px;
-    background-color: #323232;
+    background-color: #262626;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 18px;
     padding: 20px;
-    width: 200px;
+    width: 220px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -103,6 +101,21 @@ hr {
 .button:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+.table {
+    background-color: #181818;
+    border-radius: 15px;
+}
+
+th {
+    background-color: #222222;
+    border-radius: 5px;
+}
+
+tr, td {
+    background-color: #262626;
+    border-radius: 5px;
 }
 
 @media (min-width: 768px) {
