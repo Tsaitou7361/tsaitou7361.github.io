@@ -1,7 +1,19 @@
-name: Matrics_generate
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.classic.svg
-  token: ${{ secrets.METRICS_TOKEN }}
-  base: header, repositories
-  plugin_lines: yes
+name: matrics_gen
+
+on:
+    workflow_dispatch:
+
+permissions:
+    contents: read
+
+jobs:
+    generate:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Metrics embed
+            uses: lowlighter/metrics@latest
+            with:
+                filename: matrics.classic.svg
+                token: ${{ secrets.MATRICS_TOKEN }}
+                base: header. repositories
+                plugin_lines: yes
