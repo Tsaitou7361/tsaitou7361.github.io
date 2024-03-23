@@ -1,8 +1,4 @@
 httpserver.bat
 plugins.txt
 test.html
-.idea/misc.xml
-.idea/modules.xml
-.idea/site.iml
-.idea/vcs.xml
-.idea/workspace.xml
+site.code-workspace
