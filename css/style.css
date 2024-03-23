@@ -54,7 +54,7 @@
     background-color: #161616;
 }
 
-.mainpage_row {
+.row {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
