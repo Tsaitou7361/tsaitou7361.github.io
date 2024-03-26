@@ -1,7 +1,3 @@
-.container {
-    width: 90%;
-}
-
 .center {
     display: block;
     margin-left: auto;
@@ -116,6 +112,11 @@ th {
 tr, td {
     background-color: #262626;
     border-radius: 5px;
+}
+
+.date {
+    text-align: right;
+    vertical-align: bottom;
 }
 
 @media (min-width: 768px) {
