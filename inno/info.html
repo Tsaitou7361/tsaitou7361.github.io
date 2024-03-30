@@ -17,6 +17,11 @@
         <script>
             function copy() {
                 navigator.clipboard.writeText("inno.hopto.org");
+                alert("已複製位址至剪貼簿")
+            }
+            function copy_radmin () {
+                navigator.clipboard.writeText("26.31.90.2");
+                alert("已複製位址至剪貼簿")
             }
         </script>
     </head>
@@ -24,24 +29,51 @@
         <header>
             <h1>未來新興伺服器 連線資訊</h1>
         </header>
+        <h2>選擇一個連線方式</h2>
+        <div class="row">
+            <div class="box">
+                <h3>ip 直連</h3>
+                <p>ip: inno.hopto.org</p>
+                <br>
+                <br>
+                <button class="button" onclick="copy()">
+                    <span>
+                        複製位址
+                    </span>
+                </button>
+            </div>
+            <div class="box">
+                <h3>Radmin VPN</h3>
+                <p>名稱/密碼: inno.hopto.org</p>
+                <p>ip: 26.31.90.2</p>
+                <button class="button" onclick="copy_radmin()">
+                    <span>
+                        複製位址
+                    </span>
+                </button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>其他資訊</h2>
         <table style="width: 100%;">
             <tr>
-                <td>連線位址</td>
                 <td>
-                    <button class="button" onclick="copy()">
-                        <span>
-                            inno.hopto.org
-                        </span>
-                    </button>
-                    <p>(點擊以複製)</p>
+                    <p>版本</p>
+                </td>
+                <td>
+                    <p>Minecraft Java Edition 1.20.4</p>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <p>遊戲版本</p>
+                    <p>連接埠</p>
                 </td>
                 <td>
-                    <p>Minecraft Java 1.20.4</p>
+                    <p>25565 (留空即可)</p>
                 </td>
             </tr>
             <tr>
@@ -49,18 +81,7 @@
                     <p>驗證方式</p>
                 </td>
                 <td>
-                    <p>正版驗證/有白名單</p>
-                </td>
-            </tr>
-            <tr>
-                <td>社群</td>
-                <td>
-                    <button class="button" onclick="location.href='/discord'">
-                        <span>
-                            Discord
-                        </span>
-                    </button>
-                    <p>加入後才可獲得白名單與遊戲內聊天互通!</p>
+                    <p>正版驗證/有白名單 (至 Discord 申請)</p>
                 </td>
             </tr>
         </table>
