@@ -29,7 +29,7 @@
         <header>
             <h1>未來新興伺服器 連線資訊</h1>
         </header>
-        <h2>選擇一個連線方式</h2>
+        <h2>連線方式</h2>
         <div class="row">
             <div class="box">
                 <h3>ip 直連</h3>
@@ -44,13 +44,14 @@
             </div>
             <div class="box">
                 <h3>Radmin VPN</h3>
-                <p>名稱/密碼: innovation.hopto.org</p>
+                <p>名稱/密碼: inno.hopto.org</p>
                 <p>ip: 26.125.252.66</p>
                 <button class="button" onclick="copy_radmin()">
                     <span>
                         複製位址
                     </span>
                 </button>
+                <p>基岩版目前只能使用 Radmin VPN 連線!</p>
             </div>
         </div>
         <br>
@@ -58,14 +59,47 @@
         <br>
         <br>
         <br>
-        <h2>其他資訊</h2>
+        <h2>詳細資訊</h2>
         <table style="width: 100%;">
+            <tr>
+                <th>
+                    <br>
+                </th>
+                <th>
+                    <p>
+                        Java 版
+                    </p>
+                </th>
+                <th>
+                    <p>
+                        基岩版
+                    </p>
+                </th>
+            </tr>
             <tr>
                 <td>
                     <p>版本</p>
                 </td>
                 <td>
-                    <p>Minecraft Java Edition 1.20.6</p>
+                    <p>Minecraft Java Edition 1.21</p>
+                </td>
+                <td>
+                    <p>Minecraft 1.21</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        連線位址
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        直連/Radmin
+                    </p>
+                </td>
+                <td>
+                    <p>Radmin</p>
                 </td>
             </tr>
             <tr>
@@ -75,13 +109,21 @@
                 <td>
                     <p>25565 (留空即可)</p>
                 </td>
+                <td>
+                    <p>19132 (預設)</p>
+                </td>
             </tr>
             <tr>
                 <td>
                     <p>驗證方式</p>
                 </td>
-                <td>
-                    <p>正版驗證/有白名單 (至 Discord 申請)</p>
+                <td colspan="2">
+                    <p>正版驗證/有白名單 (填表單申請)</p>
+                    <button class="button" onclick="location.href='https://forms.gle/E3NJmWSLExWHTpew9'">
+                        <span>
+                            按我填表單
+                        </span>
+                    </button>
                 </td>
             </tr>
         </table>
