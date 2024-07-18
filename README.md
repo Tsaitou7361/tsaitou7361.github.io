@@ -1,5 +1,5 @@
 # tsaitou7361.github.io
-**DO NOT COPY OR CHANGE!**
+**DO NOT FORK!**
 
 This website which was written by Tsaitou7361, and hosted by Github
 
