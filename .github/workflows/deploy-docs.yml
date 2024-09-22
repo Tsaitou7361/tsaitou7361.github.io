@@ -24,7 +24,7 @@ jobs:
       - name: 設定 pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9
+          version: 9.9.0
 
 
       - name: 設定 Node.js
@@ -38,7 +38,7 @@ jobs:
           corepack enable
           pnpm install --frozen-lockfile
 
-      - name: build
+      - name: 編譯
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
