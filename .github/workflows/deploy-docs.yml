@@ -46,7 +46,7 @@ jobs:
           > src/.vuepress/dist/.nojekyll
 
       - name: 部署網站
-        uses: JamesIves/github-pages-deploy-action@v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署網站
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
