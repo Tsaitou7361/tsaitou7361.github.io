@@ -10,20 +10,21 @@ permissions:
   contents: write
 
 jobs:
-  deploy-gh-pages:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # 如果需要使用 Git submodule，取消註解下一行
+          persist-credentials: false
+          # 如果需要使用 Git submodules，取消註解下一行
           # submodules: true
 
       - name: 設定 pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 8
+          version: 9
 
 
       - name: 設定 Node.js
@@ -45,8 +46,9 @@ jobs:
           > src/.vuepress/dist/.nojekyll
 
       - name: 部署網站
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v3
         with:
           # 部署網站
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages
           folder: src/.vuepress/dist
