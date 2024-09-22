@@ -39,7 +39,7 @@ export default hopeTheme({
     description: "一個熱愛開發的高中生",
     intro: "/about/",
     medias: {
-      Discord: "https://discord.gg/aAdPbFKynn",
+      Discord: "/discord/",
       Email: "mailto:kyle.liu.0618@gmail.com",
       // Facebook: "https://example.com",
       GitHub: "https://example.com",
