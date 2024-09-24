@@ -42,7 +42,7 @@ export default hopeTheme({
       Discord: "/discord/",
       Email: "mailto:kyle.liu.0618@gmail.com",
       // Facebook: "https://example.com",
-      GitHub: "https://example.com",
+      GitHub: "https://github.com/tsaitou7361",
       // Gitlab: "https://example.com",
       // Gmail: "mailto:info@example.com",
       Instagram: "https://instagram.com/tsaitou._.7361",
