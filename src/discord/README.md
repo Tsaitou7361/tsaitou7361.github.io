@@ -5,4 +5,6 @@ head:
    - [ meta, { property: 'og:description', content: '加入神聖艾莉教皇國！' }]
 ---
 # 歡迎加入我的 Discord！
-何不加入呢？
+加入神聖艾莉教皇國！
+
+<!-- [若沒有自動重新導向...](https://discord.gg/aAdPbFKynn) -->

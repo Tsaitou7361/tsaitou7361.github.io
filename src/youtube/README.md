@@ -6,3 +6,5 @@ head:
 ---
 # 訂閱我的 YouTube！
 拯救我的頻道慘淡的數據！
+
+<!-- [若沒有自動重新導向...](https://youtube.com/@tsaitou?sub_confirmation=1) -->
