@@ -1,5 +1,5 @@
 
-name: 部署網站
+name: 更新網站
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 讓我看看
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -38,17 +38,16 @@ jobs:
           corepack enable
           pnpm install --frozen-lockfile
 
-      - name: 編譯
+      - name: 編譯網頁
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
 
-      - name: 部署網站
+      - name: 推送更新
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署網站
-          # token: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages
           folder: src/.vuepress/dist
