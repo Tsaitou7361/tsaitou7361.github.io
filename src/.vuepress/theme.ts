@@ -102,6 +102,13 @@ export default hopeTheme({
       }
     },
 
+    seo: {
+      ogp: (ogp, page, app) => {
+        ogp['og:site_name'] = ""
+        return ogp
+      }
+    },
+
     // 此處開啟了很多不一定有用的功能，請自己取捨。
     mdEnhance: {
       alert: true,
