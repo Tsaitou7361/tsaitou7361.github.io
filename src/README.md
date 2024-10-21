@@ -21,7 +21,7 @@ projects:
   - icon: link
     name: 未來新興伺服器
     desc: 我的 Minecraft 伺服器
-    link: https://innomc.pages.dev
+    link: https://inno.tsaitou.org
 
     # icon: book
     # name: 書籍名稱
@@ -56,5 +56,9 @@ projects:
   #   desc: 描述
   #   link: 連結
 
-footer: 
+head:
+  - [ meta, { property: 'og.description', content: '嗨！這裡是 Tsaitou7361 的個人網站！' }]
+  - [ meta, { property: 'og:image', content: '/assets/images/2024-06-02_20.15.53.png' }]
+  - [ meta, { property: 'og:image:height', content: '1920' }]
+  - [ meta, { property: 'og:image:width', content: '1080' }]
 ---

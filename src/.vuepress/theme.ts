@@ -8,7 +8,7 @@ export default hopeTheme({
 
   author: {
     name: "Tsaitou7361",
-    url: "https://inno.cloudns.ch"
+    url: "https://tsaitou.org"
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -105,6 +105,7 @@ export default hopeTheme({
     seo: {
       ogp: (ogp, page, app) => {
         ogp['og:site_name'] = ""
+        ogp['og:title'] = `${page.title} | tsaitou.org`
         return ogp
       }
     },

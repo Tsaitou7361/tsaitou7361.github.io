@@ -6,7 +6,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-TW",
-  title: "inno.cloudns.ch",
+  title: "tsaitou.org",
   description: "Tsaitou7361 的個人網站",
   port: 80,
 
